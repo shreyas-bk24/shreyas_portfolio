@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/styles.css';
 import bg_image from "../images/bg_image.jpg"
+import bg from "../images/bg_1.jpg"
 
 const HeroSection = () => {
     return (

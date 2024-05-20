@@ -2,7 +2,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #0d1117; /* Entire page background color */
+    background-color: #0F2421; /* Entire page background color */
     color: white;
 }
 
@@ -15,8 +15,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333; /* NavBar background color */
+    background-color: #0F2421; /* NavBar background color */
     padding: 1rem 2rem;
+    border-width: 1px;
+    border-color: blanchedalmond;
 }
 
 .nav-bar-logo {
@@ -50,7 +52,7 @@ body {
 
 /* Hero Section */
 .hero-section {
-    background-color: #444; /* HeroSection background color */
+    background-color: #0F2421; /* HeroSection background color */
     color: white;
     display: flex;
     align-items: flex-end; /* Align content to the bottom */
@@ -105,12 +107,12 @@ body {
 
 /* Featured Projects Section */
 .featured-projects {
-    background-color: #555; /* FeaturedProjects background color */
+    background-color: #0F2421; /* FeaturedProjects background color */
     padding: 2rem 0;
 }
 
 .featured-projects h2 {
-    text-align: center;
+    text-align: left;
     margin-bottom: 2rem;
 }
 
@@ -177,3 +179,56 @@ body {
         margin: 0 0 1rem 0;
     }
 }
+
+/* ContactForm.css */
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    max-width: 400px;
+    max-height: 100vh;
+    height: 50vh;
+    margin: 0 auto;
+    background-color: #121212;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+  }
+  
+  .contact-form h2 {
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    background-color: #1f1f1f;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 20px;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .contact-form input::placeholder,
+  .contact-form textarea::placeholder {
+    color: #888;
+  }
+  
+  .contact-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0056b3;
+  }
+  
